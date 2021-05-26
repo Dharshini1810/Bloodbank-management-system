@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- =====BOX ICONS===== -->
+        <!-- =====BOX ICONS===== -->  
+        <link href="assets/css/styles.css" rel="stylesheet">
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">    
@@ -11,7 +12,6 @@
 
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
         <title>Rapid Res'Q</title>
     </head>
     <body>
@@ -88,30 +88,32 @@
                 <img class="img-responsive" src="section.jpg"  style="padding-left: 55rem; margin-top: -365px;" alt="">
             </div>
         </div> 
-        <div class=" footer-container" style="background-color: #FCA4A6;">
-          <div class="left-col" style="color:antiquewhite; margin-left: 60px;">
+        <footer href="assets/css/styles.css" rel="stylesheet">
+        <div class=" footer-container">
+          <div class="left-col">
             <!--<img src="logo.png" alt="" class="logo">-->
-            <h1 style="margin-left: 150px; padding-top: 25px;">Rapid<span style="color: #A83E51;">Res'Q</span></h1>  
-            <div class="social-media" style="margin-left: 150px; color: #001a21; font-family: Open Sans,sans-serif; font-size: 29px; text-decoration: none; transition: .3s linear;">
-              <a href="#"><i class="fab fa-facebook-f" style="color:#A83E51"></i></a>
-              <a href="#"><i class="fab fa-twitter" style="color:#A83E51; margin-left: 10; margin-top: 15px"></i></a>
-              <a href="#"><i class="fab fa-instagram" style="color:#A83E51; margin-left: 10px;"></i></a>
-              <a href="#"><i class="fab fa-youtube" style="color:#A83E51; margin-left: 10px;"></i></a>
-              <a href="#"><i class="fas fa-envelope" style="color:#A83E51; margin-left: 10px;"></i></a>
+            <h1>Rapid<span>Res'Q</span></h1>  
+            <div class="social-media">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
             </div>
-            <p class="rights-text" style="margin-left: 150px; margin-top: 16px;">© 2020 Created By Rapid Res'Qers All Rights Reserved.</p>
+            <p class="rights-text">© 2020 Created By Rapid Res'Qers All Rights Reserved.</p>
           </div>
   
-          <div class="right-col" style="margin-left: 350px; color: white;">
-            <h1 style="margin-left: 550px; margin-top: -135px; padding-top: -30px;">Our Newsletter</h1>
+          <div class="right-col">
+            <h1>Our Newsletter</h1>
             
-            <p style="margin-left: 550px; margin-top: 6px;">Enter Your Email to get our news and updates.</p>
-            <form action="" class="newsletter-form" style="margin-left: 550px; margin-top: 6px;">
-              <input type="text" class="txtbx" style="padding: 18px 40px;font-size: 16px; font-family: Open Sans,sans-serif;  color: #293043;  background: #ddd;  border: none;  font-weight: 700;  outline: none;border-radius: 100px;" placeholder="Enter Your Email">
-              <input type="submit" class="btnsubmit" style=" padding: 18px 40px; font-size: 16px; font-family: Open Sans,sans-serif; color: #f1f1f1; background: #fc5c65; border: none; font-weight: 700; outline: none; border-radius: 30px; margin-left: 20px; cursor: pointer; transition: opacity .3s linear;" placeholder="submit">
+            <p>Enter Your Email to get our news and updates.</p>
+            <form action="" class="newsletter-form">
+              <input type="text" class="txtbx" placeholder="Enter Your Email">
+              <input type="submit" class="btnsubmit" placeholder="submit">
             </form>
           </div>
         </div> 
+      </footer> 
 
         <!--===== GSAP =====-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

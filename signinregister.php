@@ -20,8 +20,8 @@ _______________</div>
 <p>Are you a donor or wanna to become a donor?? Just click the "Donor" button below and get yourself registered !!
 </p>
 <div class="btn"> 
-          <a href="consumerSignin.html">
-            <button>Donor</button> 
+          <a href="index2.php">
+            <button style="background:#A83E51">Donor</button> 
           </a>  
           </div>
 </div>
@@ -39,7 +39,7 @@ _______________</div>
       Are you an Admin?? Just click the "Admin" button below and navigate to Admin signin page. </p>
       <div class="btn"> 
                 <a href="login.php">  
-                  <button>Admin</button>
+                  <button style="background:#A83E51">Admin</button>
                 </a>  
                 </div>
       </div>
