@@ -1,6 +1,6 @@
-<?php 
+<?php
 $page = 'home';
-include 'inc/header.php';
+include 'inc/header3.php';
 ?>
 <!-- my code goes here -->
 
@@ -33,7 +33,7 @@ if (isset($_POST['add_donor'])) {
 
 <div class="container">
   <div class="text-center mt-5">
-    <p class="display-4" style="padding-top:85px; font-size: 40px; font-weight: bold; font-style: italics; color:#A83E51;">ADD DONOR</p>
+    <p class="display-4" style="padding-top:85px; font-size: 40px; font-weight: bold; font-style: italics; color:#A83E51;">DONOR REGISTRATION FORM</p>
   </div>
   <form class="pt-2 pb-5 mx-auto" method="post" action="#" style="max-width: 400px" style="font-family: cursive; font-weight: bold;">
   <div class="form-group" style="font-family: cursive;  font-size: 20px;">

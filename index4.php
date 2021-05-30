@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
 	if ($result->num_rows > 0) {
 		$row = mysqli_fetch_assoc($result);
 		$_SESSION['username'] = $row['username'];
-		header("Location: index3.php");
+		header("Location: index.php");
 	} else {
 		echo "<script>alert('Woops! Email or Password is Wrong.')</script>";
 	}
@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 			<div class="input-group">
 				<button name="submit" class="btn" style="background: #C1576A;">Login</button>
 			</div>
-			<p class="login-register-text" style="font-family:cursive; font-size: 20px; font-weight: 100;">Don't have an account? <a href="register1.php" style="color:#C1576A; font-family:cursive; font-size:21px; font-weight:600;">Register</a>.</p>
+			<p class="login-register-text" style="font-family:cursive; font-size: 20px; font-weight: 100;">Don't have an account? <a href="register2.php" style="color:#C1576A; font-family:cursive; font-size:21px; font-weight:600;">Register</a>.</p>
 		</form>
 	</div>
 </body>

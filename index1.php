@@ -35,7 +35,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">HOME</a></li>
                         <li class="nav__item"><a href="signinregister.php" class="nav__link">SIGNIN</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">ABOUT</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
+                        <li class="nav__item"><a href="contactus.php" class="nav__link">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -57,7 +57,7 @@
                     <div class="home__data">
                         <h1 style="font-weight:bolder" class="home__title">Rapid Res'Q</h1>
                         <p class="home__description">Donate !! It's a bloody good job..!!</p>
-                        <a href="#" class="home__button">Get Started</a>
+                        <a href="signinregister.php" class="home__button">Get Started</a>
                     </div>
                 </div>
             </section>

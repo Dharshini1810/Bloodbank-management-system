@@ -41,19 +41,19 @@ if (isset($_POST['change_password'])) {
 
 <div class="container">
   <div class="text-center mt-5">
-    <p class="display-4">Change admin password</p>
+    <p class="display-4" style="padding-top:95px; font-size: 40px; font-weight: bolder; color: #A83E51;">CHANGE ADMIN PASSWORD</p>
   </div>
   <form class="pt-2 pb-5 mx-auto" method="post" action="#" style="max-width: 400px">
   <div class="form-group">
-    <label>New password</label>
+    <label style="font-family: cursive;  font-size: 20px;">New password</label>
     <input name="new_pass1" type="text" class="form-control">
   </div>
   <div class="form-group">
-    <label>Re enter new password</label>
+    <label style="font-family: cursive;  font-size: 20px;">Re enter new password</label>
     <input name="new_pass2" type="text" class="form-control">
   </div>
   <div class="form-group">
-    <label>Old password</label>
+    <label style="font-family: cursive;  font-size: 20px;">Old password</label>
     <input name="old_pass" type="password" class="form-control">
   </div>
 
@@ -80,11 +80,11 @@ if (isset($_POST['change_password'])) {
     }
    ?>
    <!-- error message -->
-  <button type="submit" name="change_password" class="btn btn-primary btn-block">Change password</button>
+  <button type="submit" name="change_password" class="btn btn-primary btn-block" style="background:#A83E51; border:none;">Change password</button>
 </form>
 </div>
 
 
 
 <!-- my code ends here -->
-<?php include 'inc/footer.php'; ?>
+<?php include 'inc/footer1.php'; ?>

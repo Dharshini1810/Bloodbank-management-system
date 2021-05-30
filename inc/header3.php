@@ -2,7 +2,7 @@
 <?php
   session_start();
   include 'dbh.php';
-?>
+ ?>
 <html lang="en">
     <head>
         <meta charset="UTF-8"> 
@@ -36,12 +36,11 @@
                         <i class='bx bx-x'></i>
                     </div>
 
-                    <ul class="nav__list" style="margin-right: -200px;">
-                          <li class="nav__item"><a href="index.php" class="nav__link">HOME</a></li>
-                        <li class="nav__item"><a href="all_donors.php" class="nav__link">ALL DONORS</a></li>
-                        <li class="nav__item"><a href="search_donors.php" class="nav__link">SEARCH DONORS</a></li>
-                        <li class="nav__item"><a href="deleted_donors.php" class="nav__link">DELETED DONORS</a></li>
-                        <li class="nav__item"><a href="change_password.php" class="nav__link">CHANGE PASSWORD</a></li>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index1.php" class="nav__link active">HOME</a></li>
+                        <li class="nav__item"><a href="signinregister.php" class="nav__link">SIGNIN</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">ABOUT</a></li>
+                        <li class="nav__item"><a href="contactus.php" class="nav__link">CONTACT</a></li>
 	        <li class="nav__item"><a href="index1.php" class="nav__link">LOGOUT</a></li>
                     </ul>
                 </div>

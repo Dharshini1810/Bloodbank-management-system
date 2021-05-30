@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <?php
 session_start();
-  if (isset($_SESSION['login']) && $_SESSION['login'] == 1) {
-    header('Location: index.php');
-  }
  ?>
 <html lang="en" dir="ltr">
   <head>

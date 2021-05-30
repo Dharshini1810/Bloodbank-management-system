@@ -13,11 +13,11 @@ if (isset($_POST['search_donors'])) {
 
 <div class="container">
   <div class="text-center mt-5">
-    <p class="display-4">Search donors</p>
+    <p class="display-4" style="padding-top:85px; font-size: 40px; font-weight: bolder; color: #A83E51;">SEARCH DONORS</p>
   </div>
-  <form class="pt-2 pb-5 mx-auto form-inline" method="post" action="#" style="max-width: 400px">
+  <form class="pt-2 pb-5 mx-auto form-inline" method="post" action="#" style="max-width: 400px; padding-left: 110px;">
   <div class="form-group">
-    <select name="group" class="custom-select px-5 ml-3 mr-5" id="exampleFormControlSelect1">
+    <select name="group" class="custom-select px-5 ml-3 mr-5" id="exampleFormControlSelect1" style="padding-left:120px;">>
       <option <?php echo $option=='A+'? 'selected': '' ?> value="A+">A+</option>
       <option <?php echo $option=='A-'? 'selected': '' ?> value="A-">A-</option>
       <option <?php echo $option=='B+'? 'selected': '' ?> value="B+">B+</option>
@@ -28,19 +28,19 @@ if (isset($_POST['search_donors'])) {
       <option <?php echo $option=='AB-'? 'selected': '' ?> value="AB-">AB-</option>
     </select>
   </div>
-  <button type="submit" name="search_donors" class="btn btn-primary px-5">Search donors</button>
+  <button type="submit" name="search_donors" class="btn btn-primary px-5" style="background:#A83E51; border:none; margin-top: 30px; margin-left:-30px;">Search donors</button>
 </form>
 </div>
 
 <div class="container mt-5 mb-5 pb-5">
   <table class="table table-striped">
     <thead>
-      <tr>
+      <tr style="background: #FCA4A6;">
         <th scope="col">Id</th>
         <th scope="col">Name</th>
         <th scope="col">Phone</th>
         <th scope="col">Blood group</th>
-        <th scope="col">Donation count</th>
+        <th scope="col">Age</th>
         <th scope="col">Action</th>
       </tr>
     </thead>
@@ -63,7 +63,7 @@ if (isset($_POST['search_donors'])) {
           <td> <?php echo $row['phone']; ?> </td>
           <td> <?php echo $row['blood_group']; ?> </td>
           <td> <?php echo $row['donation_count']; ?> </td>
-          <td> <a class="btn btn-sm btn-secondary" href="donor_data.php?id=<?php echo $row['id']; ?>">View details</a> </td>
+          <td> <a class="btn btn-sm btn-secondary" style="background:#A83E51; border:none;" href="donor_data.php?id=<?php echo $row['id']; ?>">View details</a> </td>
         </tr>
         <?php
     }
@@ -78,4 +78,4 @@ if (isset($_POST['search_donors'])) {
 
 
 <!-- my code ends here -->
-<?php include 'inc/footer.php'; ?>
+<?php include 'inc/footer1.php'; ?>

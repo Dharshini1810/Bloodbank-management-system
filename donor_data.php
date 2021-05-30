@@ -3,9 +3,9 @@ $page = 'data';
 include 'inc/header.php';
 ?>
 <!-- my code goes here -->
-<!-- <div class="text-center mt-5">
-  <p class="display-4">Donor data</p>
-</div> -->
+<div class="text-center mt-5">
+  <p class="display-4" style="padding-top:95px; font-size: 40px; font-weight: bolder; color: #A83E51;">DONOR DATA</p>
+</div>
 
 <?php
 $err = '';
@@ -44,9 +44,6 @@ if (isset($_GET['id'])) {
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
         <div class="container">
-          <div class="text-center mt-5">
-            <p class="display-4">Donor data</p>
-          </div>
           <form class="pt-2 pb-5 mx-auto" method="post" action="#" style="max-width: 400px">
           <div class="form-group">
             <label>Donor name</label>
@@ -61,7 +58,7 @@ if (isset($_GET['id'])) {
             <input name="phone" disabled value="<?php echo $row['blood_group']; ?>" type="text" class="form-control">
           </div>
           <div class="form-group">
-            <label>Donation count</label>
+            <label>Age</label>
             <input name="count" disabled value="<?php echo $row['donation_count']; ?>" type="number" class="form-control">
           </div>
 
@@ -76,8 +73,8 @@ if (isset($_GET['id'])) {
             }
            ?>
            <!-- error message -->
-           <a href="donor_data.php?id=<?php echo $donor_id; ?>&action=donate_now" class="btn btn-primary btn-block">Donate now</a>
-           <a href="donor_data.php?id=<?php echo $donor_id; ?>&action=delete_donor" class="btn btn-danger btn-block">Delete donor</a>
+           <a href="donor_data.php?id=<?php echo $donor_id; ?>&action=donate_now" class="btn btn-primary btn-block" style="background:#A83E51; border:none;">Donate now</a>
+           <a href="donor_data.php?id=<?php echo $donor_id; ?>&action=delete_donor" class="btn btn-danger btn-block" style="background:#A83E51; border:none;">Delete donor</a>
         </form>
         </div>
         <?php
@@ -88,4 +85,4 @@ if (isset($_GET['id'])) {
 
 
 <!-- my code ends here -->
-<?php include 'inc/footer.php'; ?>
+<?php include 'inc/footer1.php'; ?>
