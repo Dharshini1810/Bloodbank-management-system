@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php
   session_start();
-  include 'dbh.php';
+  include 'dbh.php'; 
+  include 'connect.php'
 ?>
 <html lang="en">
     <head>

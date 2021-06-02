@@ -44,7 +44,24 @@ _______________</div>
                 </div>
       </div>
       </div>
-      </div> 
+      <div class="card">
+            <div class="img">
+    <img src="admin.jpg" alt=""></div>
+    <div class="content">
+              <div class="title">
+    Request Blood</div>
+    <div class="sub-title" style="color:#A83E51">
+    _______________</div> 
+    <p>
+      A service section where you need to register for blood request so that donors could get into touch. </p>
+      <div class="btn"> 
+                <a href="service.php">  
+                  <button style="background:#A83E51">Request Blood</button>
+                </a>  
+                </div>
+      </div>
+      </div>
+    </div> 
       <script>
             $(".slider").owlCarousel({
               loop: false,
