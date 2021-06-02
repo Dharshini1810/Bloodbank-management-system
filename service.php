@@ -24,7 +24,7 @@ if (isset($_POST['req_donor'])) {
     $err = 'empty';
   } else{
     // check in database
-    $sql = "INSERT INTO req_donor(pname, gender, bgroup, units, nameandaddress, dname, reqdate, cname, address, phone, ,mailid) VALUES(  '$pname', '$gender', '$bgroup', '$units', '$nameandaddress', '$dname', '$reqname', '$cname', '$address', '$phone', '$mailid')";    
+    $sql = "INSERT INTO req_donor(pname, gender, bgroup, units, nameandaddress, dname, reqname, cname, address, phone, mailid) VALUES('$pname', '$gender', '$bgroup', '$units', '$nameandaddress', '$dname', '$reqname', '$cname', '$address', '$phone', '$mailid')";    
     mysqli_query($conn, $sql);
     $err = 'success';
     // check in database
@@ -111,9 +111,7 @@ if (isset($_POST['req_donor'])) {
       <?php
     }
    ?>
-  <a href="index.php">
   <button type="submit" name="req_donor" class="btn btn-primary btn-block" style="background:#A83E51; border:none;">Request Blood</button>
-  </a>
 </form>
 </div> 
 <!-- my code ends here -->
