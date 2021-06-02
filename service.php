@@ -1,6 +1,6 @@
 <?php 
 $page = 'home'; 
-include 'inc/header.php'; 
+include 'inc/header2.php'; 
 ?>
 <!-- my code goes here -->
 
