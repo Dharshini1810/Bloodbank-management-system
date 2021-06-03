@@ -95,13 +95,13 @@ if (isset($_GET['id'])) {
             if($err == 'updated'){
               ?>
               <div class="alert alert-success" role="alert">
-                <b>SUCCESS!</b> Donotion received.
+                <b>SUCCESS!</b> Request Accepted.
               </div>
               <?php
             }
            ?>
            <!-- error message -->
-           <a href="donor_data1.php?id=<?php echo $donor_id; ?>&action=donate_now" class="btn btn-primary btn-block" style="background:#A83E51; border:none;">Donate now</a>
+           <a href="donor_data1.php?id=<?php echo $donor_id; ?>&action=donate_now" class="btn btn-primary btn-block" style="background:#A83E51; border:none;">Accept Request</a>
            <a href="donor_data1.php?id=<?php echo $donor_id; ?>&action=delete_donor" class="btn btn-danger btn-block" style="background:#A83E51; border:none;">Delete donor</a>
         </form>
         </div>

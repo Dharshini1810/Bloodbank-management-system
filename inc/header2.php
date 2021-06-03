@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php
   session_start();
-  include 'dbh.php'; 
   include 'connect.php'
 ?>
 <html lang="en">
@@ -40,7 +39,7 @@
                     <ul class="nav__list" style="margin-right: -200px;">
                           <li class="nav__item"><a href="service.php" class="nav__link">HOME</a></li>
                         <li class="nav__item"><a href="all_request.php" class="nav__link">ALL REQUEST</a></li>
-                        <li class="nav__item"><a href="deleted_donors.php" class="nav__link">DELETED REQUEST</a></li>
+                        <li class="nav__item"><a href="search_donor1.php" class="nav__link">SEARCH REQUEST</a></li>
 	        <li class="nav__item"><a href="index1.php" class="nav__link">LOGOUT</a></li>
                     </ul>
                 </div>

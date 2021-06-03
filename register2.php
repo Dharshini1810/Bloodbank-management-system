@@ -49,8 +49,7 @@ if (isset($_POST['submit'])) {
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="style1.css">
-
-	<title>Register Form - Pure Coding</title>
+	<title>Rapid Res'Q</title>
 </head>
 <body style="background: #FCA4A6;">
 	<div class="container">

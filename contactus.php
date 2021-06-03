@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Form</title>
-    <link rel="stylesheet" href="contactus.css" />
+    <title>Rapid Res'Q</title>
+    <link rel="stylesheet" href="css/contactus.css" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -27,7 +27,7 @@
                     </div>
                     <div class="information">
                         <img src="contactusimg/email.png" class="icon" alt="" />
-                        <p>noreplyfakequipo@gmail.com</p>
+                        <p>norapidres'q@gmail.com</p>
                     </div>
                     <div class="information">
                         <img src="contactusimg/phone.png" class="icon" alt="" />
@@ -88,8 +88,8 @@
 
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
-    <script src="contactForm.js"></script>
-    <script src="contactusflip.js"></script>
+    <script src="assets/js/contactForm.js"></script>
+    <script src="assets/js/contactusflip.js"></script>
 </body>
 
 </html>

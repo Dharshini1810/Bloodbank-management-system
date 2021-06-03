@@ -2,16 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="signinregister.css">
+    <link rel="stylesheet" href="css/signinregister.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+    <title>Rapid Res'Q</title>
   </head>
   <body> 
     <div class="slider owl-carousel">
       <div class="card">
         <div class="img">
-<img src="donor.jpg" alt=""></div>
+<img src="assets/img/donor.jpg" alt=""></div>
 <div class="content">
           <div class="title">
 Donor</div>
@@ -29,7 +30,7 @@ _______________</div>
 
          <div class="card">
             <div class="img">
-    <img src="admin.jpg" alt=""></div>
+    <img src="assets/img/admin.jpg" alt=""></div>
     <div class="content">
               <div class="title">
     Admin</div>

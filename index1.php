@@ -85,7 +85,7 @@
 			</ul>
             </div> 
             <div class="col-md-6">
-                <img class="img-responsive" src="section.jpg"  style="padding-left: 55rem; margin-top: -365px;" alt="">
+                <img class="img-responsive" src="assets/img/section.jpg"  style="padding-left: 55rem; margin-top: -365px;" alt="">
             </div>
         </div> 
         <footer href="assets/css/styles.css" rel="stylesheet">

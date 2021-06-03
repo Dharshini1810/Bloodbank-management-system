@@ -1,2 +1,0 @@
-email: t@gmail.com
-pass: 123
