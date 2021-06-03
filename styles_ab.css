@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCA4A6;;
+    background-image: url("blood.gif");
+    background-repeat: no-repeat;
+    background-size: 42%;
+    background-position: 20px;
+    position: relative;
+    left: 2px;
+    bottom: 150px;
+    overflow: hidden;
+}
+
+.about-section{
+    
+     
+     overflow: hidden;
+     padding: 100px 0;
+     
+}
+.inner-container {
+    width: 55%;
+    float: right;
+    padding: 50px;
+    
+}
+h1{
+    position: relative;
+    left: 250px;
+    top: 23px;
+    
+}
+.text{
+    font-size: 29px;
+    color: crimson;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    top: 28px;
+
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 23px;
+    position: relative;
+    top: 150px;
+    border-bottom: 4px solid crimson;
+}
