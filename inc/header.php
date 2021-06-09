@@ -42,7 +42,7 @@
                         <li class="nav__item"><a href="search_donors.php" class="nav__link">SEARCH DONORS</a></li>
                         <li class="nav__item"><a href="deleted_donors.php" class="nav__link">DELETED DONORS</a></li>
                         <li class="nav__item"><a href="change_password.php" class="nav__link">CHANGE PASSWORD</a></li>
-	        <li class="nav__item"><a href="index1.php" class="nav__link">LOGOUT</a></li>
+	        	<li class="nav__item"><a href="index1.php" class="nav__link">LOGOUT</a></li>
                     </ul>
                 </div>
             </nav>

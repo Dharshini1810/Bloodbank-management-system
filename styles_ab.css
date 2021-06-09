@@ -13,10 +13,10 @@ body {
     background-color: #FCA4A6; 
     background-image: url('about1.png');
     background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: -180px;
+    background-size: 40%;
+    background-position: 25px;
     position: relative;
-    left: -62px;
+    right: 152px;
     bottom: 180px;
     overflow: hidden;
 }
