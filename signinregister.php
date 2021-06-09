@@ -47,7 +47,7 @@ _______________</div>
       </div>
       <div class="card">
             <div class="img">
-    <img src="admin.jpg" alt=""></div>
+    <img src="assets/img/service.png" alt=""></div>
     <div class="content">
               <div class="title">
     Request Blood</div>
