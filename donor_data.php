@@ -67,7 +67,7 @@ if (isset($_GET['id'])) {
             if($err == 'updated'){
               ?>
               <div class="alert alert-success" role="alert">
-                <b>SUCCESS!</b> Donotion received.
+                <b>Donation info sent successfully</b>
               </div>
               <?php
             }
