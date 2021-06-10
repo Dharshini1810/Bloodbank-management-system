@@ -65,7 +65,7 @@ if (isset($_POST['search_donors'])) {
           <td> <?php echo $row['bgroup']; ?> </td>
           <td> <?php echo $row['units']; ?> </td> 
           <td> <?php echo $row['phone']; ?> </td> 
-          <td> <a class="btn btn-sm btn-secondary" style="background:#A83E51; border:none;" href="donor_data.php?id=<?php echo $row['id']; ?>">View details</a> </td>
+          <td> <a class="btn btn-sm btn-secondary" style="background:#A83E51; border:none;" href="donor_data1.php?id=<?php echo $row['id']; ?>">View details</a> </td>
         </tr>
         <?php
     }
