@@ -32,7 +32,7 @@
               <a href="#"><i class="fab fa-youtube"></i></a>
               <a href="#"><i class="fas fa-envelope"></i></a>
             </div>
-            <p class="rights-text">© 2020 Created By Rapid Res'Qers All Rights Reserved.</p>
+            <p class="rights-text">©2021 Created By Rapid Res'Qers All Rights Reserved.</p>
           </div>
   
           <div class="right-col">
