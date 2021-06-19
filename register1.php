@@ -1,6 +1,6 @@
 <?php 
 
-include 'config1.php';
+include 'inc/config1.php';
 
 error_reporting(0);
 
@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
 
 	<title>Rapid Res'Q</title>
 </head>

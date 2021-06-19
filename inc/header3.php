@@ -39,7 +39,7 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="index1.php" class="nav__link active">HOME</a></li>
                         <li class="nav__item"><a href="signinregister.php" class="nav__link">SIGNIN</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">ABOUT</a></li>
+                        <li class="nav__item"><a href="aboutus.html" class="nav__link">ABOUT</a></li>
                         <li class="nav__item"><a href="contactus.php" class="nav__link">CONTACT</a></li>
 	        <li class="nav__item"><a href="index1.php" class="nav__link">LOGOUT</a></li>
                     </ul>

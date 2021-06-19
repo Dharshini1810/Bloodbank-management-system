@@ -1,6 +1,6 @@
 <?php
 
-$dbhServername = "localhost:3307";
+$dbhServername = "localhost";
 $dbhUsername = "root";
 $dbhPassword = "";
 $dbhName = "dev_blood";

@@ -1,6 +1,6 @@
 <?php 
 
-$server1 = "localhost:3307";
+$server1 = "localhost";
 $user1 = "root";
 $pass1 = "";
 $database1 = "service";
